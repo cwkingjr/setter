@@ -85,3 +85,9 @@ and runs the address(s) against your top-level/all-inclusive pmap file
 created by setter.py to see if any of those addresses are in the pmap. If
 so, it prints out the address and the customer (associated label in the pmap)
 information.
+
+### SiLK Installation required
+
+setter.py depends upon SiLK executables being installed.
+
+SiLK: https://tools.netsa.cert.org/silk/index.html 
