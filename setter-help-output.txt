@@ -1,0 +1,62 @@
+Usage: ./setter.py [options]
+    use -h for help / option descriptions 
+    
+
+Options:
+  -h, --help            show this help message and exit
+  -c PMAPCONCAT, --pmap-concat=PMAPCONCAT
+                        Allows default pmap name concatenation string of ' - '
+                        to be overridden.  A node's pmap name is derived from
+                        a reversed concatenation of the node's non-empty long
+                        name and each ancestor node's non-empty long name,
+                        separated by this concatenation string.  E.g.,
+                        Grandparent - Parent - Child
+  -d, --debug           Optional.  Dump debug (vice info) output to the
+                        command line interface.  Debug-level output is
+                        automatically logged to rotating log files and is far
+                        easier to review there.
+  -f, --print-file-names
+                        Optional.  Print the names of files that would be
+                        created (truncates if set-level option provided).
+                        This is meant for use to check your setter-context
+                        file configuration.  When used, setter will terminate
+                        before creating the real files.
+  -i SETTXTFILE, --in-file=SETTXTFILE
+                        Setter text file to process. Default is ~/setter-
+                        content.txt.
+  -l LOGPATH, --log-path=LOGPATH
+                        Path where you want setter.log file written. Default
+                        is your home dir.
+  -o OUTPATH, --out-path=OUTPATH
+                        Path where you want files written. Default is your
+                        home dir inside a date-setter folder.
+  -O, --no-out-date     Do not include the processed date in the folder name
+                        where output files are written.
+  -p PMAPLONGLEVEL, --pmap-long-level=PMAPLONGLEVEL
+                        Level restriction used when creating long-description
+                        pmap files.  Default is all levels.  E.g., -p 1 would
+                        create a long pmap file for level 0 and each level 1
+                        entry.  Every level file includes records for itself
+                        and all descendant levels.
+  -P, --no-long-pmap    Do not create long (proper name) pmap files.
+  -r PMAPSHORTLEVEL, --pmap-short-level=PMAPSHORTLEVEL
+                        Level restriction used when creating short-description
+                        pmap files.  Default is all levels.  E.g., -r 1 would
+                        create a short pmap file for level 0 and each level 1
+                        entry.  Every level file includes records for itself
+                        and all descendant levels.
+  -R, --no-short-pmap   Do not create short (file-name-based) pmap files.
+  -s SETLEVEL, --set-level=SETLEVEL
+                        Level restriction used when creating set files.
+                        Default is all levels.  E.g., -s 3 would create a set
+                        file for level 0 and each level 1, 2, and 3 entry.
+                        Every level file includes records for itself and all
+                        descendant levels.
+  -S, --no-set          Do not create set files.
+  -t, --print-tree      Optional.  Print a text representation of the tree of
+                        nodes that will be loaded from setter-context.txt
+                        (truncates if set-level option provided).  This is
+                        meant for use to check your setter-context file
+                        configuration.  When used, setter will terminate
+                        before creating the real files.
+  -v, --version         Indicates script version
