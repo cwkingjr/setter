@@ -31,7 +31,7 @@ Examples:
     #setter:L1=customers # no long name here either
 
     #setter:L2=customer1name|Customer One Name
-    #setter:L3=HQ|Headquarters - Washington, DC
+    #setter:L3=HQ|Headquarters - Washington DC
     10.10.10.0/24
 
     #setter:L2=customer2name|Customer Two Name
@@ -63,7 +63,7 @@ short formats, with the long format containing a report/evidence-centric
 proper name, and the short format containing an all lower case short name
 to reserve netops/analyst working screen space.
 
-    Example Long: Apple - Data Center East - Falls Church, VA - Building 129
+    Example Long: Apple - Data Center East - Falls Church VA - Building 129
     Example Short: apple-dc_east-b129
 
 There are some other utility scripts included.
