@@ -4,7 +4,8 @@
 
 Script to create SiLK IP address set and prefix map (pmap) files.
 
-For command line usage info, see setter-help-output.txt.
+For command line usage info, see setter-help-output.txt. For an example of a
+cli call to setter.py see setter-wrapper.sh.
 
 setter.py consumes a specially-comment-decorated rwsetbuild text file and crafts 
 a full compliment of hierarchical set and pmap files based on the user's 
