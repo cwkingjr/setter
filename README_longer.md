@@ -66,11 +66,8 @@ Note: Because of a pmap dependency, no commas are allowed within the tag values.
 - 2.2-3,5.3.3 will be interpreted as 2.2.3.3/32, 2.3.3.3/32, and 2.5.3.3/32
 
     2.2.2.0
-
     2.2.3-4,9.x
-    
     2.3.6.21
-    
     2.3.7.0/24
 
 ### Adding Additional Peer Levels
@@ -106,7 +103,7 @@ Or, with no L0 provided:
     customers.set
     customers-apple.set
     customers-apple-dc_west.set
-    ustomers-apple-dc_east.set
+    customers-apple-dc_east.set
     customers-walmart.set
     customers-walmart-hq.set
     sensors.set
