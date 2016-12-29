@@ -1,0 +1,41 @@
+#setter:L0=my_mssp
+#setter:L1=customers
+
+#setter:L2=apple|Apple
+#setter:L3=HQ|Headquarters - Cupertino CA
+10.1.1.0/24
+#setter:L3=dc_west|Data Center West - Portland OR
+10.1.22.0/24
+#setter:L3=dc_east|Data Center East - Falls Church VA
+#setter:L4=B129|Building 129
+10.1.3.0/24
+#setter:L4=B130|Building 130
+10.1.7.0/24
+
+#setter:L2=walmart|Wal-Mart Stores
+#setter:L3=hq|Headquarters - Bentonville AR
+10.2.1.0/24
+#setter:L4=disto|Distribution Division
+#setter:L5=conus|CONUS
+#setter:L6=edwardsville|Edwardsville IL
+10.2.3-5.x       # comments
+10.2.6,8.x
+#setter:L6=murfreesboro|Murfreesboro TN
+10.2.9.0/24
+#setter:L5=amea|Asia - Middle East - Africa
+#setter:L6=Bangalore|Bangalore India
+10.3.1-4.0/24
+#setter:L5=eu|European Union
+#setter:L6=Berlin|Berlin Germany
+10.4.0.0/16
+
+#setter:L1=sensors|Sensors
+#setter:L2=sourcefire|Sourcefire
+#setter:L3=us
+10.5.0.0/16
+#setter:L3=amea
+10.6.0.0/24
+#setter:L3=eu
+10.7.0.0/24
+#setter:L3=other
+10.10.10.x
