@@ -94,4 +94,4 @@ SiLK: https://tools.netsa.cert.org/silk/index.html
 
 ### Note
 
-This code is circa 2014 and was built to run on python 2.6 by requirement. Also, at the time, many of the SiLK tools did not support IPv6. For these reasons, the entire code base could stand to be rewritten.
+This code is circa 2013 and was built to run on python 2.6 by requirement. Also, at the time, many of the SiLK tools did not support IPv6. For these reasons, the entire code base could stand to be rewritten.
